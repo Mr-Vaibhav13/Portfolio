@@ -35,7 +35,7 @@ export default class About extends Component {
     <h6 class="card-subtitle mb-2 mnm">Coding Problems</h6>
     <p class="card-text cctt"> 
     <ul class="lgg">
-  <li class="lgt">300+ Q's Solved</li>
+  <li class="lgt">500+ Q's Solved</li>
   <li class="lgt">1542 Rating Codechef</li>
   {/* <li class="list-group-item"></li> */}
 </ul>    
@@ -57,7 +57,7 @@ export default class About extends Component {
     <h6 class="card-subtitle mb-2 mnm">Experience</h6>
     <p class="card-text cctt"> 
     <ul class="lgg">
-  <li class="lgt">2 months Intern</li>
+  <li class="lgt">3 months Intern</li>
   <li class="lgt">3 months Tech Faculty</li>
   {/* <li class="list-group-item"></li> */}
 </ul>    
@@ -93,7 +93,7 @@ export default class About extends Component {
 
 
 
-<a target="_blank" href='https://drive.google.com/file/d/1mLC4NGGDaGdsxscv_KgcZF2ZBj4LCOqF/view?usp=drive_link'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
+<a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1ZyHCzG1LpOiCPZPZ0kTcM2NiNZMYdPoh/view?usp=sharing'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
      </div>
      
     </div>

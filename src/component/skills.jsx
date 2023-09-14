@@ -52,7 +52,7 @@ export default class Skills extends Component {
 
 
     <div className="col">
-      <div className="p-3 se q">
+    <div className="p-3 se q">
       
       <h2 className="Web">Web Development Skills</h2>
         
@@ -69,7 +69,7 @@ export default class Skills extends Component {
   <li className="list-group-item va"><FaRedhat className='csk'/> NodeJs</li>
 </ul>
 <ul className="list-group list-group-horizontal-lg">
-  {/* <li className="list-group-item"> </li> */}
+  <li className="list-group-item v"><FaRedhat className='csk'/> MongoDB</li>
   {/* <li className="list-group-item va">A third item</li> */}
 </ul>
 
