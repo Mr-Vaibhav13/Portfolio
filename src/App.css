@@ -41,7 +41,9 @@
 width:20%;
  }
 
-
+body {
+  overflow: hidden;
+}
 
 
  /* NAVBAR */
@@ -58,7 +60,7 @@ width:20%;
  }
 
 #nna{
-  background-image: url(./image/bg9.jpg);
+  /* background-image: url(./image/bg9.jpg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -99,7 +101,7 @@ width:20%;
   background-attachment: fixed;
   background-size: cover;
   text-align: left;
-  height: 49.7rem;
+  height: 100vh;
 }
 
 /* .dddd{
@@ -219,8 +221,9 @@ width:20%;
   background-attachment: fixed;
   background-size: cover;
 /* width: 500%; */
-height: 49.9rem;
+  height: 110vh;
 }
+
 
 .colsss{
   width: 100%;
@@ -298,7 +301,7 @@ height: 49.9rem;
 
 .cvv{
   margin-top: 3%;
-  margin-left: -33em;
+  margin-right: 80%;
   padding: 2%;
   padding-right: 3%;
 }
@@ -320,7 +323,7 @@ height: 49.9rem;
   background-attachment: fixed;
   background-size: cover;
   /* padding-bottom: 50%; */
-  height: 49.7rem;
+  height: 100vh;
   /* margin-bottom: -6%; */
 }
 
@@ -413,7 +416,7 @@ height: 49.9rem;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 50.8rem;
+  height: 110vh;
 }
 
 .sl{
@@ -460,12 +463,12 @@ height: 49.9rem;
 
 
 .yoo{
-  background-image: url(./image/contactimg.jpg);
+  background-image: url(./image/imgContact.jpg);
   opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 48.7rem;
+  height: 100vh;
 }
 
 .fm{
@@ -473,8 +476,9 @@ height: 49.9rem;
 }
 
 #w3{
-  /* margin-right: 80%; */
+  margin-right: 80%;
   border-radius: 9px;
+  width:100%;
   padding-left: 7px;
 }
 
@@ -505,12 +509,14 @@ height: 49.9rem;
 
 .ii h2{
   text-indent: 6%;
-  color: orange;
+  font-size: 30px;
+  color: rgb(71, 58, 145);
 }
 
 .iii h2{
   text-indent: 6%;
-  color: orange;
+  font-size: 30px;
+  color: rgb(71, 58, 145);
   /* text-decoration: double; */
 }
 
