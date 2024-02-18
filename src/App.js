@@ -1,19 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from "./component/navbar";
-import { Component } from 'react';
 import Home from "./component/home";
 import About from "./component/about";
 import Skills from "./component/skills";
 import Work from "./component/work";
 import Contact from "./component/contact";
+// import Reachme from './component/Reachme';
 
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -22,11 +20,6 @@ function App() {
     <div className="App">
     <Router>
       <Nav />
-      {/* <Home/> */}
-      {/* <About/>
-      <Skills/>
-      <Work/>
-      <Contact/> */}
       
 
       <Switch>

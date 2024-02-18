@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import { BiPhoneCall } from "react-icons/bi";
-
 
 export default class Contact extends Component {
   render() {
@@ -12,7 +10,7 @@ export default class Contact extends Component {
         
 
         <div className="row">
-    <div className="col-lg-6">
+    <div className="col-lg-6 ff">
        
     <div className='iii'>
     

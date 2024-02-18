@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import "../App.css";
-import Img from "../image/homeimg1.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faEnvelope,faHippo,faLinkedin } from '@fortawesome/free-solid-svg-icons'
-import { faWhatsapp , faTwitter, faInstagram, faGithub ,faDiscord, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp , faTwitter, faInstagram, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
 import { FaDownload ,FaAngleDoubleRight} from "react-icons/fa";
 
@@ -15,14 +14,14 @@ export default class Home extends Component {
 
     <div className="dddd">
      {/* <h5 className='hh'>Student</h5> */}
-      <h1 className="one">Hey! I AM</h1>
+      <h1 className="one">Hi! I AM</h1>
       <h1 id="o" className="one">VAIBHAV SHARMA</h1>
-      <p className="pp">Passionate Student who love to Code and Looking for an opportunity to apply my skills</p>
+      <p className="pp"> I am a dedicated student with a fervent love for coding and front-end development. I thrive on bringing websites to life by infusing them with creativity and interactivity using web animations</p>
       
       <div className='mi'>
-      <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1ZyHCzG1LpOiCPZPZ0kTcM2NiNZMYdPoh/view?usp=sharing'><button id="dd" type="button" className="btn btn-warning bb">Download CV<FaDownload className='qwe'/></button></a>
+      <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1XZsnZjYUrmpyisMVN6YHQKmKhskI82cQ/view?usp=sharing'><button id="dd" type="button" className="btn bb">Download CV<FaDownload className='qwe'/></button></a>
       
-      <a href='mailto:vaibhav008mn@gmail.com'><button type="button" id="hire" className="btn btn-outline-warning bb">Hire me <FaAngleDoubleRight className='wwww' /></button></a>
+      <a href='mailto:vaibhav008mn@gmail.com'><button type="button" id="hire" className="btn bb">Hire me <FaAngleDoubleRight className='wwww' /></button></a>
       
       </div>
 

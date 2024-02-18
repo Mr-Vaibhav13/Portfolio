@@ -31,7 +31,7 @@ export default class Skills extends Component {
 </ul>
 <ul className="list-group list-group-horizontal-sm">
   <li className="list-group-item v"><FaRedhat className='csk'/> Java</li>
-  <li className="list-group-item va"><FaRedhat className='csk'/> Algorithms</li>
+  <li className="list-group-item va"><FaRedhat className='csk'/> Github</li>
 </ul>
 <ul className="list-group list-group-horizontal-md">
   <li className="list-group-item v"><FaRedhat className='csk'/> Python</li>
@@ -39,7 +39,7 @@ export default class Skills extends Component {
 </ul>
 <ul className="list-group list-group-horizontal-lg">
   <li className="list-group-item v"><FaRedhat className='csk'/> Object Oriented</li>
-  <li className="list-group-item va"><FaRedhat className='csk'/> GitHub</li>
+  {/* <li className="list-group-item va"><FaRedhat className='csk'/> GitHub</li> */}
 </ul>
 
 
@@ -66,11 +66,11 @@ export default class Skills extends Component {
 </ul>
 <ul className="list-group list-group-horizontal-md">
   <li className="list-group-item v"><FaRedhat className='csk'/> JavaScipt</li>
-  <li className="list-group-item va"><FaRedhat className='csk'/> NodeJs</li>
+  <li className="list-group-item va"><FaRedhat className='csk'/> Tailwind CSS</li>
 </ul>
 <ul className="list-group list-group-horizontal-lg">
   <li className="list-group-item v"><FaRedhat className='csk'/> MongoDB</li>
-  {/* <li className="list-group-item va">A third item</li> */}
+  <li className="list-group-item va"><FaRedhat className='csk'/>NodeJs</li>
 </ul>
 
       
