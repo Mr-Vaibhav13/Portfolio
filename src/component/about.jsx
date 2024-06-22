@@ -92,7 +92,7 @@ export default class About extends Component {
 
 
 
-<a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1ZyHCzG1LpOiCPZPZ0kTcM2NiNZMYdPoh/view?usp=sharing'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
+<a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1xsIbxGhg7MjKVet4LNWhwoH4zG6TqRZT/view?usp=sharing'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
      </div>
      
     </div>

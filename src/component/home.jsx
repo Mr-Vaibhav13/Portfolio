@@ -19,7 +19,7 @@ export default class Home extends Component {
       <p className="pp"> I am a dedicated student with a fervent love for coding and front-end development. I thrive on bringing websites to life by infusing them with creativity and interactivity using web animations</p>
       
       <div className='mi'>
-      <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1XZsnZjYUrmpyisMVN6YHQKmKhskI82cQ/view?usp=sharing'><button id="dd" type="button" className="btn bb">Download CV<FaDownload className='qwe'/></button></a>
+      <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1xsIbxGhg7MjKVet4LNWhwoH4zG6TqRZT/view?usp=sharing'><button id="dd" type="button" className="btn bb">Download CV<FaDownload className='qwe'/></button></a>
       
       <a href='mailto:vaibhav008mn@gmail.com'><button type="button" id="hire" className="btn bb">Hire me <FaAngleDoubleRight className='wwww' /></button></a>
       
