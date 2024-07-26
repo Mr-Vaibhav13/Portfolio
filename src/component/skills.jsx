@@ -35,7 +35,7 @@ export default class Skills extends Component {
 </ul>
 <ul className="list-group list-group-horizontal-md">
   <li className="list-group-item v"><FaRedhat className='csk'/> Object Oriented</li>
-  <li className="list-group-item va"><FaRedhat className='csk'/> Prisma</li>
+  {/* <li className="list-group-item va"><FaRedhat className='csk'/> </li> */}
 </ul>
 <ul className="list-group list-group-horizontal-lg">
   <li className="list-group-item v"><FaRedhat className='csk'/> GitHub</li>

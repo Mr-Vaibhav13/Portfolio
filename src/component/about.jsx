@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FaLaptopCode,FaCertificate,FaDownload} from "react-icons/fa";
 import { TfiMedallAlt } from "react-icons/tfi";
+import { RESUME_LINK } from '../constants';
 
 
 
@@ -92,7 +93,7 @@ export default class About extends Component {
 
 
 
-<a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1xsIbxGhg7MjKVet4LNWhwoH4zG6TqRZT/view?usp=sharing'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
+<a target="_blank" rel="noreferrer" href= {RESUME_LINK}><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
      </div>
      
     </div>
