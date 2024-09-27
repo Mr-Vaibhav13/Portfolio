@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Ing from "../image/Aboutimg1.jpg";
 import { FaLaptopCode,FaCertificate,FaDownload} from "react-icons/fa";
 import { TfiMedallAlt } from "react-icons/tfi";
+import { RESUME_LINK } from '../constants';
 
 
 
@@ -14,14 +14,14 @@ export default class About extends Component {
 
 
         <div class="col-lg-6 ccc" >
-      {/* <img class="colsss" src={Ing} alt="iphone-mockup"/> */}
+      {/* <img class="colsss" src={Ing}"/> */}
      </div>
 
         <div class="col-lg-6 ccc ss">
         <h5 className='hh'>Who am I?</h5>
       
-      <p class="psp">I am an Engineering student based in Uttar Pradesh, India who's love to solve problem solving coding questions and developing Fullstack Developer skills.</p>
-      <p class="psp" id="sdds">I'm currently in the Third year of B.tech pursuing from ABES Engineering College. I always try to find opportunities to put my skills into practice.</p>
+      <p class="psp">I am an Engineering student lived in Uttar Pradesh, India who love to solve problem solving coding questions and developing Fullstack Developer skills.</p>
+      <p class="psp" id="sdds">I'm currently in the fourth year of B.tech pursuing from ABES Engineering College. I always try to find opportunities to put my skills into practice.</p>
       
 
 
@@ -93,7 +93,7 @@ export default class About extends Component {
 
 
 
-<a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1ZyHCzG1LpOiCPZPZ0kTcM2NiNZMYdPoh/view?usp=sharing'><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
+<a target="_blank" rel="noreferrer" href= {RESUME_LINK}><button type="button" class="btn btn-success cvv">Download CV <FaDownload className='qwe'/></button></a>
      </div>
      
     </div>
